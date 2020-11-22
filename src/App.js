@@ -1,7 +1,7 @@
 import "./App.css";
 import BarChart from "./charts/BarChart";
 import CircleChart from "./charts/CircleChart";
-import React, { useEffect, useState, useMemo } from "react";
+import React from "react";
 import LineChart from "./charts/LineChart";
 import * as d3 from "d3";
 import LINE_DATA from "./lineData.csv";
